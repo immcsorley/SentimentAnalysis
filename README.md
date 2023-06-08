@@ -12,4 +12,13 @@ Through the power of web scraping, we sought to extract valuable insights from T
 
 We invite you to explore the repository and discover the methodologies, techniques, and results obtained from this project. By delving into the intricacies of sentiment analysis in a political context, we hope to contribute to the broader field of text analytics and inspire further research in this domain.
 
+In each of the jupyter notebook files you will find our thought process, code, and findings from each step of the process. 
+
+1. **WEB SCRAPING**: The first step we completed was web scraping, which included actually scraping the web pages and saving them to a folder contianing all of the web pages in HTML format. 
+2. **PARSING**: The next step was parsing the saved HTML files and extracting the information we wanted, which was the title, author, date and body of the news article. We saved all of these into a single csv file
+3. **SENTIMENT CLASSIFIER**: The next step we tokenized the body text and determine if each sentence is a positive, neutral, or negative sentiment. We used these as training data and built various models for prediction. We saved the best model which was a SVM model. 
+4. **CLUSTER/TOPIC ANALYSIS**: The last thing we did was perform a cluster and topic analysis using LDA topic modeling. We looked at keywords of each topic the model discovered and found what each topic was mostly talking about. Some topics included political, environmental, financial, and social issues. 
+
+
+
 Thank you for your interest in our project, and we look forward to your engagement and feedback.
